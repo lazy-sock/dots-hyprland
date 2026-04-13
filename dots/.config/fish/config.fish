@@ -25,6 +25,7 @@ if status is-interactive
     alias pamcan pacman
     alias q 'qs -c ii'
     alias astronvim 'NVIM_APPNAME=astronvim nvim'
+    export PATH="$HOME/.cargo/bin:$PATH"
     
     if test "$TERM" != "linux"
         alias ls 'eza --icons'
